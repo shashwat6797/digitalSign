@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   //BackgroundChange
-  colorBackground.value = "white";
+  colorBackground.value = "#fff";
   colorBackground.addEventListener("change", (e) => {
     var backgroundColor = colorBackground.value.toString();
     console.log(backgroundColor);
