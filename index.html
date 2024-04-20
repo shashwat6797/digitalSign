@@ -1,0 +1,37 @@
+<!doctype html> <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Draw Pad</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="pageContainer">
+      <div class="wrapper-row">
+      <h1>Draw Digital Sign and Download</h1>
+      <canvas id="draw-pad"></canvas>
+  <div class="wrapper-column">
+         <button id="downloadButton" class="button">
+          <a id="link">Download Sign</a>
+        </button>
+       <div style="display:flex; align-items:center">
+          Stroke Width
+          <input type="range" id="width" style="margin: 4px"></input>
+          <p class="display" id="widthValue">3</p>
+        </div>
+          <div style="display:flex; align-items:center">
+          Stroke Color
+          <input type="color" id="color" style="margin: 4px"></input>
+        </div>
+        <div style="display:flex; align-items:center">
+          Background Color
+          <input type="color" id="colorBackground" style="margin: 4px"></input>
+        </div>
+       <button id="resetButton" class="button">
+          Reset
+        </button>
+    </div>
+    </div>
+        <script src="script.js"></script>
+  </body>
+</html>
